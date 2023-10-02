@@ -1,0 +1,58 @@
+[
+  {
+    "nombre": "Combo 1 Dulce",
+    "titulo": "Cinnamon Roll + Bebida",
+    "imagen": "img/cinnamon-roll.jpg",
+    "detalle": "Es un roll de canela glaseado con pasas de uva, y viene con café latte.",
+    "precio": "$1250"
+  },
+  {
+    "nombre": "Combo 2 Dulce",
+    "titulo": "Panqueques + Bebida",
+    "imagen": "img/panqueques.jpg",
+    "detalle": "Son panqueques dulces bañados con miel y además tiene arándanos. La bebida es café expreso.",
+    "precio": "$1500"
+  },
+  {
+    "nombre": "Combo 3 Dulce",
+    "titulo": "Yogurt con frutas + Bebida",
+    "imagen": "img/yogurt.jpg",
+    "detalle": "Bowl de yogurt natural con frutos rojos. La bebida es jugo de naranja exprimido.",
+    "precio": "$1400"
+  },
+  {
+    "nombre": "Combo 4 Dulce",
+    "titulo": "Croissants + Bebida",
+    "imagen": "img/croissants.jpg",
+    "detalle": "Vienen 2 croissants acompañadas por un café expreso",
+    "precio": "$1250"
+  },
+  {
+    "nombre": "Combo 1 Salado",
+    "titulo": "Avocado Toast + Bebida",
+    "imagen": "img/avocado-toast.jpg",
+    "detalle": "Son 2 rodajas de pan tostado con palta y huevo condimentados. La bebida es limonada.",
+    "precio": "$2250"
+  },
+  {
+    "nombre": "Combo 2 Salado",
+    "titulo": "Tostado Jamón & Queso + Bebida",
+    "imagen": "img/tostado.jpg",
+    "detalle": "1 sandwich de pan artesanal tostado con jamón y queso, acompañado por un jugo de naranja exprimido.",
+    "precio": "$2000"
+  },
+  {
+    "nombre": "Combo 3 Salado",
+    "titulo": "Cheesy Egg Toast + Bebida",
+    "imagen": "img/cheesy-egg-toast.jpg",
+    "detalle": "Es una rodaja grande pan tostado con huevo frito y queso gratinado. La bebida es cafe expreso.",
+    "precio": "$2250"
+  },
+  {
+    "nombre": "Combo 4 Salado",
+    "titulo": "Chicken Bagel + Bebida",
+    "imagen": "img/chicken-bagel.jpg",
+    "detalle": "Es un sandwich bagel de pollo con verduras, queso en hebras y aderezo. Viene con un jugo de naranja exprimido",
+    "precio": "$2500"
+  }
+]

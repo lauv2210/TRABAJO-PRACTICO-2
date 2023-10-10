@@ -57,6 +57,8 @@ document.addEventListener("click", (event) => {
 
 function createCombo() {
   principal.innerHTML = "";
+  let estrellas = createPuntaje();
+
   for (let i = 0; i < combos.length; i++) {
     if (codigo == `menu-${i}`) {
       principal.innerHTML = `
@@ -65,10 +67,27 @@ function createCombo() {
     <img src = "${combos[i].imagen}">
     <p>${combos[i].detalle}</p>
     <p>${combos[i].precio}</p>
+    <p>${estrellas}</p>
     <button type = "button">Volver Atrás</h3>
   `;
     }
   }
+}
+
+function createPuntaje() {
+  let estrellas = "";
+  let puntaje;
+  for (let i = 0; i < combos.length; i++) {
+    if (codigo == `menu-${i}`) {
+      puntaje = Array.from(combos[i].puntaje);
+    }
+  }
+
+  for (let i = 0; i < puntaje.length; i++) {
+    estrellas += "⭐";
+  }
+
+  return estrellas;
 }
 
 loadLista();
